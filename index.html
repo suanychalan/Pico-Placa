@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pico y Placa</title>
+</head>
+
+<body>
+    <div id="form">
+        <h1>Pico y Placa </h1>
+        <h2>Enter your license plate to know wether you can be on the road or not</h2>
+        <form action="" name="data" method="get">
+            <h3>License Plate</h3>
+            <input type="text" maxlength="8" placeholder="PBX-123" name="licenseplate" id="licenseplate" required>
+            <h3>Date</h3>
+            <input type="date" name="date" id="date" required>
+            <h3>Time</h3>
+            <input type="time" name="time" id="time" required>
+            <br>
+            <input type="submit" value="Send" onclick="print">
+            <p id="placa">......</p>
+        </form>
+    </div>
+
+</body>
+
+</html>
