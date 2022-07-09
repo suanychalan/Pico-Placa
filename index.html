@@ -6,6 +6,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+    <script src="licensePlate.js"></script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -18,14 +20,14 @@
         <h2>Enter your license plate to know wether you can be on the road or not</h2>
         <form action="" name="data" method="get">
             <h3>License Plate</h3>
-            <input type="text" maxlength="8" placeholder="PBX-123" name="licensePlate" id="licensePlate" required>
+            <input type="text" maxlength="8" placeholder="PBX-123" name="licensePlate" id="licensePlate">
             <h3>Date</h3>
-            <input type="date" name="date" id="date" required>
+            <input type="date" name="date" id="date">
             <h3>Time</h3>
-            <input type="time" name="time" id="time" required>
+            <input type="time" name="time" id="time">
             <br>
-            <input type="submit" value="Send" onclick="print">
-            <p id="placa">......</p>
+            <button id="submitBtn" onclick="predictPicoPlaca()">
+            <p id="placa">Send</p>
         </form>
     </div>
 

@@ -1,7 +1,8 @@
 class PicoPlaca {
+
     constructor(licensePlate, date, time) {
         this.licensePlate = licensePlate;
-        this.date = date;
+        this.date = date + "T00:00:00";
         this.time = time;
     }
 

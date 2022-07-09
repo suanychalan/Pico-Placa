@@ -1,6 +1,6 @@
 const PicoPlaca = require('./licensePlate');
-const picoPlaca1 = new PicoPlaca("PBX-129", "July 8, 2022 01:15:00", "16:53:10");
-const picoPlaca2 = new PicoPlaca("PBX-123", "July 10, 2022 01:15:00", "20:53:10");
+const picoPlaca1 = new PicoPlaca("PBX-129", "2022-07-08", "16:53");
+const picoPlaca2 = new PicoPlaca("PBX-123", "2022-07-10", "20:53");
 
 test('Gets the las digit of the license plate', () => {
     expect(picoPlaca1.getLastDigit()).toBe(9);
