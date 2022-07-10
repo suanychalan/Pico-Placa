@@ -15,15 +15,6 @@ You may clone the project
   git clone https://github.com/suanychalan/Pico-Placa.git
 ```
 
-<<<<<<< HEAD
-=======
-Go to the project directory
-
-```bash
-  cd my-project
-```
-
->>>>>>> fec08a92302b886285b8198dbf3be94a5d87f323
 ## Deployment 
 
 Initialize project
