@@ -1,18 +1,21 @@
 html * {
     font-family: 'Raleway', sans-serif;
-    margin: 2;
-    padding: 2;
+}
+
+#header {
+    text-align: center;
+    margin: 0;
 }
 
 #form {
-    background: white;
     text-align: center;
-    margin: auto;
-    width: 700px;
+    margin: 0 auto 0 auto;
+    width: 800px;
     height: 700px;
 }
 
-input {
+input,
+button {
     border-radius: 25px;
     margin: 10px;
     height: 50px;
@@ -23,7 +26,7 @@ input {
 }
 
 h1 {
-    padding-top: 2em;
+    margin: 0;
     font-size: 2em;
 }
 
@@ -36,6 +39,11 @@ h3 {
     font-size: 1em;
 }
 
-p {
-    font-size: 1em;
+#sendBtn {
+    margin: 0;
+}
+
+#carsLeft {
+    width: 700px;
+    object-fit: contain;
 }
