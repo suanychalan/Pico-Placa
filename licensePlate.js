@@ -11,6 +11,7 @@ class PicoPlaca {
         const currentDay = this.getDay();
         const platesDay = this.getPlateDay(currentDay);
         const picoPlacaActive = this.getPicoPlacaActive();
+        const alertPicoPlaca = "";
 
         if (platesDay.includes(licenseLastDigit) && picoPlacaActive) {
             return true;
@@ -19,7 +20,6 @@ class PicoPlaca {
     }
 
     getLastDigit() {
-        //licensePlate = document.getElementById("licensePlate")
         var lastDigitStr = String(this.licensePlate).slice(-1);
         var lastDigitNum = Number(lastDigitStr);
         if (typeof lastDigitNum != 'number') {

@@ -15,19 +15,25 @@
 </head>
 
 <body>
-    <div id="form">
+    <div id="header">
+        <p><img src="/imgs/carsLeft.jpg" id="carsLeft" alt=""></p>
         <h1>Pico y Placa </h1>
         <h2>Enter your license plate to know wether you can be on the road or not</h2>
+        <h4>*Please be sure to fill out correctly all the fiields</h4>
+    </div>
+
+    <div id="form">
         <form action="" name="data" method="get">
             <h3>License Plate</h3>
-            <input type="text" maxlength="8" placeholder="PBX-123" name="licensePlate" id="licensePlate">
+            <input type="text" maxlength="8" placeholder="PBX-123" name="licensePlate" id="licensePlate" required>
             <h3>Date</h3>
-            <input type="date" name="date" id="date">
+            <input type="date" name="date" id="date" required>
             <h3>Time</h3>
-            <input type="time" name="time" id="time">
+            <input type="time" name="time" id="time" required>
             <br>
             <button id="submitBtn" onclick="predictPicoPlaca()">
-            <p id="placa">Send</p>
+            <p id="sendBtn">Send</p>
+            
         </form>
     </div>
 
